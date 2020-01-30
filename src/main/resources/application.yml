@@ -7,13 +7,13 @@ spring:
   jpa:
     show-sql: false
     hibernate:
-      dll-auto: update
+      ddl-auto: update
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
   jmx:
-    enabled:false
+    enabled: false
   datasource:
     username: root
     password: 123456
-    url: jbdc:mysql://localhost:3307/curso?allowPublicKeyRetrieval=true&sslMode=DISABLED
+    url: jdbc:mysql://localhost:3306/curso?allowPublicKeyRetrieval=true&sslMode=DISABLED
