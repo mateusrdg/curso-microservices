@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: curso
+  jpa:
+    show-sql: false
+    hibernate:
+      dll-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+  jmx:
+    enabled:false
+  datasource:
+    username: root
+    password: 123456
+    url: jbdc:mysql://localhost:3307/curso?allowPublicKeyRetrieval=true&sslMode=DISABLED
