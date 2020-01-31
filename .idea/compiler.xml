@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="core" />
         <module name="curso" />
+        <module name="discovery" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="core" target="11" />
       <module name="curso" target="11" />
+      <module name="discovery" target="11" />
       <module name="microservices" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -20,6 +22,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="core" options="-parameters" />
       <module name="curso" options="-parameters" />
+      <module name="discovery" options="-parameters" />
     </option>
   </component>
 </project>
