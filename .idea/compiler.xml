@@ -10,9 +10,11 @@
         <module name="curso" />
         <module name="discovery" />
         <module name="gateway" />
+        <module name="auth" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="auth" target="11" />
       <module name="core" target="11" />
       <module name="curso" target="11" />
       <module name="discovery" target="11" />
@@ -22,6 +24,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth" options="-parameters" />
       <module name="core" options="-parameters" />
       <module name="curso" options="-parameters" />
       <module name="discovery" options="-parameters" />
