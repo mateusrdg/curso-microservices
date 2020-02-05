@@ -18,10 +18,20 @@ public class ApplicationUser implements AbstractEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
     private Long id;
-    @NotNull(message="Preenchimento obrigatorio!")
+    @NotNull(message = "Preenchimento obrigatorio!")
     @Column(nullable = false)
-    private String usuario;
-    @NotNull(message="Preenchimento obrigatorio!")
+    private String username;
+    @NotNull(message = "Preenchimento obrigatorio!")
     @Column(nullable = false)
-    private String senha;
+    private String password;
+    @NotNull(message = "Preenchimento obrigatorio!")
+    @Column(nullable = false)
+    private String role = "USER";
+
+    public ApplicationUser(@NotNull ApplicationUser applicationUser) {
+        this.id = applicationUser.getId();
+        this.username = applicationUser.getUsername();
+        this.password = applicationUser.getPassword();
+        this.role = applicationUser.getRole();
+    }
 }
