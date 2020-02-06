@@ -21,11 +21,10 @@ public class JwtConfiguration {
     private String privateKey = "CCJIrZW6MvrpPBj96SCeoUwcsY2A8RQP";
     private String type = "encrypted";
 
-    @Getter
     @Setter
-    private class Header {
+    @Getter
+    public static class Header {
         private String name = "Authorization";
         private String prefix = "Bearer ";
-
     }
 }

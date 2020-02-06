@@ -8,6 +8,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface ApplicationUserRepository extends PagingAndSortingRepository<ApplicationUser,Long> {
 
-    ApplicationUser findByUsuario(String usuario);
+    ApplicationUser findByUsername(String username);
 
 }

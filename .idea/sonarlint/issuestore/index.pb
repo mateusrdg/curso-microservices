@@ -205,3 +205,15 @@ A
 discovery/pom.xml,a\c\ac3e1555725512e9cd39c39120cd768bda4aa7b4
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+<
+auth/pom.xml,c\f\cf3c56ff971c67216817e39a7bd2756a0dd65833
+w
+Gauth/src/main/java/mateus/curso/microservicos/auth/AuthApplication.java,a\2\a2e5c82caeab4dbdbfa62d93356cced64ac62fda
+
+Qcore/src/main/java/mateus/curso/microservicos/core/property/JwtConfiguration.java,d\d\dd9b6019fa849dc5f04e4afe80dba6db861efe92
+‘
+aauth/src/main/java/mateus/curso/microservicos/auth/security/config/SecurityCredentialsConfig.java,4\a\4a18a3a6720573a84bce16556b1a9295ed94c3b2
+Œ
+\auth/src/main/java/mateus/curso/microservicos/auth/security/user/UserDetailsServiceImpl.java,a\7\a7aa8003b4bbf58514a1c379676da418932db963
+}
+Mcore/src/main/java/mateus/curso/microservicos/core/model/ApplicationUser.java,a\f\afea261245fd58baf78bcdacc31ac6baf1fcb981

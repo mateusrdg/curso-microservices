@@ -11,7 +11,6 @@ import javax.validation.constraints.NotNull;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@ToString
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class ApplicationUser implements AbstractEntity {
     @Id
@@ -23,6 +22,7 @@ public class ApplicationUser implements AbstractEntity {
     private String username;
     @NotNull(message = "Preenchimento obrigatorio!")
     @Column(nullable = false)
+    @ToString.Exclude
     private String password;
     @NotNull(message = "Preenchimento obrigatorio!")
     @Column(nullable = false)

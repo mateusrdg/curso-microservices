@@ -23,12 +23,12 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     private final ApplicationUserRepository applicationUserRepository;
 
     @Override
-    public UserDetails loadUserByUsername(String nomeUsuario) {
-        log.info("Procurando na DB o usuario pelo nome de usuario '{}' ", nomeUsuario);
-        ApplicationUser applicationUser = applicationUserRepository.findByUsuario(nomeUsuario);
+    public UserDetails loadUserByUsername(String username) {
+        log.info("Procurando na DB o usuario pelo nome de usuario '{}' ", username);
+        ApplicationUser applicationUser = applicationUserRepository.findByUsername(username);
         log.info("Usuario encontrado: '{}'", applicationUser);
         if (applicationUser == null)
-            throw new UsernameNotFoundException("Usuario nao encontrado: " + nomeUsuario);
+            throw new UsernameNotFoundException("Usuario nao encontrado: " + username);
         return new CustomUserDetails(applicationUser);
     }
 
