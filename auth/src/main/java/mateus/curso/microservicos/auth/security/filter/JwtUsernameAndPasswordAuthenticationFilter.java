@@ -75,7 +75,7 @@ public class JwtUsernameAndPasswordAuthenticationFilter extends UsernamePassword
         log.info("Building JWK from the RSA Keys");
 
         JWK jwk = new RSAKey.Builder((RSAPublicKey) rsaKeys.getPublic()).keyID(UUID.randomUUID().toString()).build();
-        SignedJWT signedJWT = new SignedJWT(new JWSHeader.Builder(JWSAlgorithm.ES256)
+        SignedJWT signedJWT = new SignedJWT(new JWSHeader.Builder(JWSAlgorithm.RS256)
                 .jwk(jwk)
                 .type(JOSEObjectType.JWT)
                 .build(), jwtClaimsSet);

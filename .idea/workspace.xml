@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bfd510a-d0c5-4f72-a0ba-8d6903e8f5e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_8_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/security/filter/JwtUsernameAndPasswordAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/microservices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/microservices.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a18a3a6720573a84bce16556b1a9295ed94c3b2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a18a3a6720573a84bce16556b1a9295ed94c3b2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/security/config/SecurityCredentialsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/security/config/SecurityCredentialsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/security/filter/JwtUsernameAndPasswordAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/security/filter/JwtUsernameAndPasswordAuthenticationFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/security/user/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/security/user/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/test/java/mateus/curso/microservicos/auth/AuthApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/test/java/mateus/curso/microservicos/auth/AuthApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core/core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/mateus/curso/microservicos/core/model/ApplicationUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/mateus/curso/microservicos/core/model/ApplicationUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/mateus/curso/microservicos/core/property/JwtConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/mateus/curso/microservicos/core/property/JwtConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/mateus/curso/microservicos/core/repository/ApplicationUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/mateus/curso/microservicos/core/repository/ApplicationUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/curso/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,6 +39,24 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="curso@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="curso@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="curso@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="curso: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="curso@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="curso: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="application_user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -59,19 +66,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/curso/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="48" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/security/user/UserDetailsServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="27" column="93" selection-start-line="27" selection-start-column="93" selection-end-line="27" selection-end-column="93" />
+            <state relative-caret-position="161">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,67 +78,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auth/src/main/resources/application.yml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="203">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/security/config/SecurityCredentialsConfig.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://e7fcb927-34a0-40b9-9dc5-ebdb3c54c762/schema/curso/table/curso">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="01c14dfa-ce7c-465a-8c10-3dfec58e18c3">
-              <filtering>
-                <filter text="" />
-              </filtering>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auth/src/test/java/mateus/curso/microservicos/auth/AuthApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e7fcb927-34a0-40b9-9dc5-ebdb3c54c762/console.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://e7fcb927-34a0-40b9-9dc5-ebdb3c54c762/schema/curso/table/application_user">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="01c14dfa-ce7c-465a-8c10-3dfec58e18c3">
-              <filtering>
-                <filter text="" />
-              </filtering>
+            <state relative-caret-position="237">
+              <caret line="98" column="28" lean-forward="true" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/AuthApplication.java">
+        <entry file="file://$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/security/filter/JwtUsernameAndPasswordAuthenticationFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="59">
+              <caret line="74" column="49" selection-start-line="74" selection-start-column="49" selection-end-line="74" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,13 +157,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/core/src/main/java/mateus/curso/microservicos/core/model/ApplicationUser.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/mateus/curso/microservicos/core/property/JwtConfiguration.java" />
-        <option value="$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/security/filter/JwtUsernameAndPasswordAuthenticationFilter.java" />
         <option value="$PROJECT_DIR$/auth/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/auth/src/test/java/mateus/curso/microservicos/auth/AuthApplicationTests.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/mateus/curso/microservicos/core/repository/ApplicationUserRepository.java" />
-        <option value="$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/security/user/UserDetailsServiceImpl.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/security/config/SecurityCredentialsConfig.java" />
+        <option value="$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/security/user/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/security/filter/JwtUsernameAndPasswordAuthenticationFilter.java" />
       </list>
     </option>
   </component>
@@ -253,11 +215,6 @@
               <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -269,8 +226,8 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth0" value="15" />
+    <property name="RequestMappingsPanelWidth1" value="15" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -315,6 +272,7 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.27125195" />
   </component>
   <component name="RunManager" selected="JUnit.AuthApplicationTests.test">
     <configuration name="AuthApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -394,7 +352,9 @@
       <workItem from="1580906245212" duration="388000" />
       <workItem from="1580907522789" duration="274000" />
       <workItem from="1580908914171" duration="18070000" />
-      <workItem from="1580954082492" duration="1105000" />
+      <workItem from="1580954082492" duration="3266000" />
+      <workItem from="1581033577609" duration="137000" />
+      <workItem from="1581035151855" duration="3366000" />
     </task>
     <task id="LOCAL-00001" summary="Discovery">
       <created>1580436849251</created>
@@ -410,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580875426082</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Authentication Service Signed and Encrypted JWT">
+      <created>1580957768223</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580957768223</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -423,15 +390,17 @@
     <history-entry file="AuthApplicationTests_test - 2020.02.05 at 22h 26m 36s.xml">
       <configuration name="AuthApplicationTests.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AuthApplicationTests_test - 2020.02.06 at 22h 28m 37s.xml">
+      <configuration name="AuthApplicationTests.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44627000" />
+    <option name="totallyTimeSpent" value="50291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24054463" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24810892" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -455,7 +424,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32850242" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.32850242" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49924356" visible="true" weight="0.68438005" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49924356" visible="true" weight="0.4074074" />
       <window_info anchor="bottom" id="Database Console" order="17" weight="0.32850242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
@@ -463,48 +432,11 @@
       <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.23903178" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23676248" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.32850242" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49924356" weight="0.32850242" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32850242" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.32850242" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924356" weight="0.32850242" />
-      <window_info anchor="bottom" id="SonarLint" order="12" sideWeight="0.49924356" visible="true" weight="0.32850242" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32850242" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32850242" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49924356" weight="0.31239936" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -512,16 +444,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Discovery" />
     <MESSAGE value="Authorization user detail" />
-    <option name="LAST_COMMIT_MESSAGE" value="Authorization user detail" />
+    <MESSAGE value="Authentication Service Signed and Encrypted JWT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Authentication Service Signed and Encrypted JWT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/AuthApplication.java</url>
-          <line>17</line>
+          <url>file://$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/security/user/UserDetailsServiceImpl.java</url>
+          <line>26</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -715,17 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/curso/src/main/java/mateus/curso/microservicos/curso/CursoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-          <folding>
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar!/org/springframework/security/web/AuthenticationEntryPoint.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -748,16 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/security/filter/JwtUsernameAndPasswordAuthenticationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1182">
-          <caret line="39" column="100" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/curso/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -765,10 +677,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/security/user/UserDetailsServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/AuthApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="27" column="93" selection-start-line="27" selection-start-column="93" selection-end-line="27" selection-end-column="93" />
+        <state relative-caret-position="221">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/src/test/java/mateus/curso/microservicos/auth/AuthApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e7fcb927-34a0-40b9-9dc5-ebdb3c54c762/schema/curso/table/curso">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="e03966eb-8a1f-4c45-8a8e-dd94c0b2f933">
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/security/config/SecurityCredentialsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -782,15 +719,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth/src/test/java/mateus/curso/microservicos/auth/AuthApplicationTests.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e7fcb927-34a0-40b9-9dc5-ebdb3c54c762/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/curso/src/main/java/mateus/curso/microservicos/curso/CursoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="119">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e7fcb927-34a0-40b9-9dc5-ebdb3c54c762/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="das://e7fcb927-34a0-40b9-9dc5-ebdb3c54c762/schema/curso/table/application_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="e03966eb-8a1f-4c45-8a8e-dd94c0b2f933">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/mateus/curso/microservicos/core/repository/ApplicationUserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -799,38 +749,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/security/config/SecurityCredentialsConfig.java">
+    <entry file="file://$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/security/user/UserDetailsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        <state relative-caret-position="161">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://e7fcb927-34a0-40b9-9dc5-ebdb3c54c762/schema/curso/table/curso">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="01c14dfa-ce7c-465a-8c10-3dfec58e18c3">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e7fcb927-34a0-40b9-9dc5-ebdb3c54c762/schema/curso/table/application_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="01c14dfa-ce7c-465a-8c10-3dfec58e18c3">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/AuthApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="203">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="98" column="28" lean-forward="true" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/src/main/java/mateus/curso/microservicos/auth/security/filter/JwtUsernameAndPasswordAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="74" column="49" selection-start-line="74" selection-start-column="49" selection-end-line="74" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
