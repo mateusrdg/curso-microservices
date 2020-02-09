@@ -16,6 +16,7 @@
     <properties>
         <java.version>11</java.version>
         <curso-core.version>1.0-SNAPSHOT</curso-core.version>
+        <curso-token.version>1.0-SNAPSHOT</curso-token.version>
     </properties>
 
     <dependencies>
@@ -34,6 +35,11 @@
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>mateus.curso.microservicos</groupId>
+            <artifactId>token</artifactId>
+            <version>${curso-token.version}</version>
         </dependency>
     </dependencies>
 
